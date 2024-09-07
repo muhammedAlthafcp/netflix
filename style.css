@@ -1,0 +1,216 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: #000; */
+    font-family: 'Poppins', sans-serif;
+}
+
+nav img {
+    width: 13%;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+        url("https://assets.nflxext.com/ffe/siteui/vlv3/ab180a27-b661-44d7-a6d9-940cb32f2f4a/7fb62e44-31fd-4e1f-b6ad-0b5c8c2a20ef/IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+}
+
+.red-btn {
+    background: #ff0a0a;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 17px;
+}
+
+.red-btn:hover {
+    background: #dd1616;
+}
+
+.hero-tite {
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.hero-h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-h5 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+form {
+    width: 60%;
+
+}
+
+form #floatingInput {
+    color: #fff;
+}
+
+form #floatingInput:focus~label {
+    color: #000000;
+    background: transparent;
+
+}
+
+form .form-control:hover {
+    border-color: #fff;
+    box-shadow: none;
+    border-width: medium;
+
+}
+
+/* .line {
+    display: inline-block;
+    width: 100%;
+    border-top: 0.2px solid rgb(17, 17, 17);
+    margin: 0;
+    padding: 0;
+  } */
+form .form-floating {
+    width: 50%;
+}
+
+form #floatingInput {
+    background: transparent;
+}
+
+form label {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+
+.get-started-btn {
+    height: 60px;
+    font-size: 1.5rem;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.get-started-btn::after {
+    content: "";
+}
+
+.enjoy-title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section-paragraph {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+.section-faq h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+
+}
+
+.section-faq button {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.section-faq .accordion {
+    --bs-accordion-color: #fff;
+    --bs-accordion-bg: rgb(45, 45, 45);
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-radius: none;
+}
+
+.section-faq .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.section-faq .accordion-button:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.section-faq .accordion-button:not(collapsed) {
+    background-color: rgb(40 40 40);
+    color: #fff;
+}
+
+.section-faq .accordion-button::after {
+    content: "+";
+    background-image: none;
+    position: absolute;
+    height: 30px;
+    font-size: 50px;
+    top: 5px;
+    right: 45px;
+}
+
+.section-faq .accordion-button:not(.collapsed)::after{
+    background-image: none;
+    transform: none;
+    content: "x";
+}
+
+
+footer{
+    border-top: 5px solid #232323;
+}
+
+footer p,
+footer a{
+    color: rgba(255, 255, 255,0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+footer ul{
+    padding-left: 0;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer select{
+    background: #000;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* appearance: none; */
+    border-radius: 5px;
+    
+
+}
+
+@media screen and (max-width:992px) {
+    nav img {
+        width: 13%;
+    }
+    
+    /* section-title{
+        font-size: 2rem;
+        font-weight: 700;
+    } */
+}
+
+@media only screen and (max-width:768px) {
+    nav img {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:480px ) {
+    nav img{
+        width: 30%;
+    }
+}
